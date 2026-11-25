@@ -1,8 +1,15 @@
 # YoloV8Macroinvertebrates
-This repository aims colect the data and results of experimentation in the project "Clasificación Automática de Macroinvertebrados Como Bioindicadores de Calidad de Agua, Asistida por Inteligencia Artificial, Mediante Detectores de Piezas Semánticas (código INTD2-72)" of Mariana University (Colombia). 
+The aim of this repository is to collect the data and results of the "Clasificación Automática de Macroinvertebrados Como Bioindicadores de Calidad de Agua, Asistida por Inteligencia Artificial, Mediante Detectores de Piezas Semánticas" project (code INTD2-72) at Mariana University (Colombia).
 
-This experimentation have two stages:
-1. Initial experimentation according to the baseline available in: https://github.com/liliandayanacruz/YoloMacroinvertebrates. At the begining  The experimentation aims to evaluate the previous configuration in the new dataset with the YOLO's version 03.
-2. Advaced experimentation in the new dataset with new classes and features for morphotaxonomic part detection. 
+The experimentation has two stages:
+1. Initial experimentation according to the available baseline: https://github.com/liliandayanacruz/YoloMacroinvertebrates. The initial stage of the experiment aims to evaluate the previous configuration in the new dataset using YOLO version 03.
+2. Advanced experimentation on the dataset with new classes and features for morphotaxonomic part detection.
+
+## Classes (dataset)
+
+The classification will be done at family level. Since the categorisation in the FinBenthic database does not extend to family level, it was necessary to merge two or three categories. However, for this project, we decided to strike a balance in the number of images. Each category's dataset may contain between 800 and 900 images. The families are as follows:
+
+1. Baetidae (order Ephemeroptera, class Insecta). The species available in the database are: Baetis niger (455 images) and Baetis rhodani (468 images). There are a total of 923 images. The labelled parts are: head, antennae, thorax, legs, abdomen, gills and fins.
+2. Nemouridae (order Plecoptera, class Insecta): The available species in the database are: Nemoura (414 images) and Protonemura (387 images). The total number of images is 831. The labelled parts are: head, antennae, thorax, legs, abdomen, gills and fins.
 
 
