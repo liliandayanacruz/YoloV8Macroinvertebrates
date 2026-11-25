@@ -1,0 +1,7 @@
+cabeza
+antenas
+torax
+patas
+abdomen
+branquias
+cercos
